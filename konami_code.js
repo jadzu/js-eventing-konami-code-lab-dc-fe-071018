@@ -25,7 +25,12 @@ function init() {
 let bodyArray = document.getElementByTagName("body");
   console.log("bodyArray:", bodyArray)
 
-  bodyEl[0].addEventListener("keydown", onKeyDownHandler);
+  bodyArray[0].addEventListener("keydown", onKeyDownHandler);
+
+function onKeyDownHandler() {
+console.log("=== onKeyDownHandler ==="");
+
+}
 
 
 
