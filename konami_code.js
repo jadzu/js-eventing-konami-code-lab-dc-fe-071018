@@ -29,7 +29,7 @@ let bodyArray = document.getElementByTagName("body");
 
 function onKeyDownHandler() {
 console.log("=== onKeyDownHandler ==="");
-
+console.log("e.which:", e.which);
 }
 
 
