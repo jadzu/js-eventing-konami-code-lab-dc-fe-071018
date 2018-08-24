@@ -22,11 +22,11 @@ function onKeyDownHandler(e) {
 function init() {
   // Write your JavaScript code inside the init() function
 
-let bodyEl = document.getElementByTagName("body");
-  console.log("bodyEl:", bodyEl)
+let bodyArray = document.getElementByTagName("body");
+  console.log("bodyArray:", bodyArray)
 
   bodyEl[0].addEventListener("keydown", onKeyDownHandler);
-  
+
 
 
 }
